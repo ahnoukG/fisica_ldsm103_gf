@@ -50,3 +50,8 @@ function Calc()
 	MathJax.typeset();	
 }
 
+function Clear()
+{
+
+}
+

@@ -1,8 +1,23 @@
 body {
 	text-align: center;
-	background-image: url("https://wallpapercrafter.com/desktop1/557572-physics-astronomy-orbits-equations-minimalism.jpg");
+	background-image: url("physic_background.jpg");
 	color: #f7f7f7;
 	font-family: "Arial";
+}
+
+
+.divisorBox
+{
+    visibility: hidden;
+    width: 20px;
+    height: 20px;
+    background-color: white;
+    position: absolute;
+    z-index: -1;
+    left: 48%;
+    top: 30%;
+    z-index: -1;
+
 }
 
 #box1
@@ -41,6 +56,13 @@ button:hover
 	background-color: #4d4b4b;
 }
 
+
+
+label:hover
+{
+    background-color: #4d4b4b;
+}
+
 .resultados {
 	visibility: hidden;
 	;
@@ -72,7 +94,7 @@ h4 {
     top: 30%;
     z-index: -1;
     border-right: solid;
-	padding-right: 40px;
+	padding-right: 50px;
 }
 
 #sustitucionBox {
@@ -95,12 +117,19 @@ h4 {
     justify-content: center;
     align-items: center;
     margin-bottom: -18px;
+    border: solid 2px grey;
 
 }
+
 
 .math_Symbols {
 	font-size: 15px; 
 	margin-top:-14px; 
 	margin-bottom: -10px;
+}
+
+footer {
+    margin-top: 20px;
+    font-size: 16px;
 }
 

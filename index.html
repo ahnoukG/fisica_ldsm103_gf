@@ -18,7 +18,7 @@
  	<br>
 
 	<div id="box1">
-		<h3 class="effect_Shadow"> Calculadora </h3>
+		<h3 class="effect_Shadow" style="margin-top:55px;"> Calculadora </h3>
 		<h4> Velocidad inicial </h4> 
 		<p class="math_Symbols">$$v_0$$</p>
 		<input id="value_Velocidad0" type="number" required> 
@@ -28,7 +28,7 @@
 		<input id="value_Angulo" type="number" required>
 		<br>
 		<br>
-		<button id="button_Calc" onclick="Calc()"> Calcular </button>
+		
 
 	</div>
 
@@ -43,6 +43,8 @@
 	
 </div>
 
+<div class="divisorBox"> </div>
+
 
 <div class="boxHover" id="sustitucionBox">
 	<h3 class="effect_Shadow"> Sustitución </h3>
@@ -54,24 +56,30 @@
 	<p class="math_Symbols" id="formulaAlcanceHorizontal"></p>
 
 </div>
+<div class="divisorBox"> </div>
 
 <div class="boxHover" id="totalBox">
 	<h3 class="effect_Shadow"> Resultados </h3>
 
 	<h4>Tiempo de vuelo: </h4>
 	<div class="resultado">
-		<label id="total_TiempoVuelo"></label>
+		<label class="total_Label" id="total_TiempoVuelo"></label>
 	</div>
 
 	<h4>Alcance horizontal: </h4>
 	<div class="resultado">
-		<label id="total_AlcanceHorizontal"></label>
+		<label class="total_Label" id="total_AlcanceHorizontal"></label>
 	</div>
 </div>
+<br>
+<button id="button_Calc" onclick="Calc()"> Calcular </button>
 
 <br>
+<br>
 <hr>
-<footer> Gemma Flores Ramírez. LDSM103. </footer>
+
+<footer> Universidad Tecnològica de León. <br>
+Gemma Flores Ramírez. LDSM103. </footer>
 </body>
 
 </html>
