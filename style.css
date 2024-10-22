@@ -1,6 +1,6 @@
 body {
 	text-align: center;
-	background-image: src="physic_background.jpg";
+	background-image: url("physic_background.jpg");
 	color: #f7f7f7;
 	font-family: "Arial";
 }
