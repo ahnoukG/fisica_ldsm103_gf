@@ -1,6 +1,6 @@
 body {
 	text-align: center;
-	background-image: url("https://kalix.club/uploads/posts/2022-12/1671759513_kalix-club-p-krasivii-fon-dlya-prezentatsii-po-fizike-k-1.jpg");
+	background-image: src="physic_background";
 	color: #f7f7f7;
 	font-family: "Arial";
 }
