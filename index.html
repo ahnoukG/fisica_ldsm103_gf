@@ -1,1 +1,75 @@
+<html>
+<head>
+	<title> Física U2 </title>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script src="script.js"></script>
 
+	<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+</head>
+<body>
+	<h1 class="effect_Shadow" style="margin-bottom: 0px;">Física</h1> <hr>
+ 	<h3> Movimiento parabólico </h3>
+ 	<p style="font-size:13px; margin-top: -22px; margin-bottom: -5px;"> Calculo de tiempo de vuelo y alcance horizontal mediante la velocidad inicial y el ángulo. </p>
+
+ 	<br>
+
+	<div id="box1">
+		<h3 class="effect_Shadow"> Calculadora </h3>
+		<h4> Velocidad inicial </h4> 
+		<p class="math_Symbols">$$v_0$$</p>
+		<input id="value_Velocidad0" type="number" required> 
+
+		<h4> Ángulo</h4>
+		<p class="math_Symbols">$$\theta$$ </p>
+		<input id="value_Angulo" type="number" required>
+		<br>
+		<br>
+		<button id="button_Calc" onclick="Calc()"> Calcular </button>
+
+	</div>
+
+<div class="boxHover" id="formulasBox">
+	<h3 class="effect_Shadow"> Fórmulas </h3>
+
+	<h4>Tiempo de vuelo </h4>
+	<p class="math_Symbols">$$ t_f = \frac{2 v_0 \sin\theta }{g} $$</p>
+	
+	<h4>Alcance horizontal </h4>
+	<p class="math_Symbols">$$ R = \frac{v_0^2 \sin 2\theta}{g} $$</p>
+	
+</div>
+
+
+<div class="boxHover" id="sustitucionBox">
+	<h3 class="effect_Shadow"> Sustitución </h3>
+
+	<h4>Tiempo de vuelo </h4>
+	<p class="math_Symbols" id="formulaTiempoVuelo"></p>
+
+	<h4>Alcance horizontal </h4>
+	<p class="math_Symbols" id="formulaAlcanceHorizontal"></p>
+
+</div>
+
+<div class="boxHover" id="totalBox">
+	<h3 class="effect_Shadow"> Resultados </h3>
+
+	<h4>Tiempo de vuelo: </h4>
+	<div class="resultado">
+		<label id="total_TiempoVuelo"></label>
+	</div>
+
+	<h4>Alcance horizontal: </h4>
+	<div class="resultado">
+		<label id="total_AlcanceHorizontal"></label>
+	</div>
+</div>
+
+<br>
+<hr>
+<footer> Gemma Flores Ramírez. LDSM103. </footer>
+</body>
+
+</html>
